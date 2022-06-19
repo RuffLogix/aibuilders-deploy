@@ -2,6 +2,13 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 import numpy as np
+import torch
+from torch import nn
+from torchvision import transforms
+import functools
+from IPython.display import Image as ipy_image
+from PIL import Image
+import numpy as np
 from model import Predict
 
 
